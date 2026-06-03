@@ -1,0 +1,101 @@
+---
+import LetterGlitch from "../React/LetterGlitch.tsx";
+import LogoWall from "../components/logoWall.astro";
+import SkillsList from "../React/SkillsList.tsx";
+import code  from "../layouts/codef.png";
+---
+
+<section id="Services" class="bg-[#0f0f11] text-[var(--white)] py-12 border-t border-[#ffffff10]">
+  <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 space-y-16">
+
+    <!-- Título -->
+    <div class="text-center space-y-4">
+      <h2 class="text-4xl md:text-5xl font-bold text-[var(--sec)] shiny-sec">
+        Nuestros Servicios
+      </h2>
+      <p class="text-lg text-[var(--white-icon)] max-w-3xl mx-auto">
+        Ofrecemos soluciones personalizadas que se adaptan a las necesidades de 
+        <span class="font-semibold text-white">pequeñas empresas</span> y 
+        <span class="font-semibold text-white">grandes corporaciones</span>, 
+        garantizando innovación, escalabilidad y eficiencia.
+      </p>
+    </div>
+
+    <!-- Servicios para Pequeñas Empresas -->
+    <div class="space-y-8">
+      <h3 class="text-2xl md:text-3xl font-semibold text-white">
+        🚀 Servicios para Pequeñas Empresas y Startups
+      </h3>
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="p-6 rounded-2xl bg-[#141414] hover:bg-[var(--sec)]/20 transition duration-300 shadow-lg">
+          <div class="text-[var(--sec)] mb-4 text-4xl">💻</div>
+          <h4 class="text-xl font-bold">Desarrollo Web</h4>
+          <p class="text-[var(--white-icon)]">
+            Páginas web modernas y optimizadas para impulsar tu presencia online.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#141414] hover:bg-[var(--sec)]/20 transition duration-300 shadow-lg">
+          <div class="text-[var(--sec)] mb-4 text-4xl">📱</div>
+          <h4 class="text-xl font-bold">Aplicaciones Móviles</h4>
+          <p class="text-[var(--white-icon)]">
+            Apps intuitivas y funcionales para Android e iOS con costos accesibles.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#141414] hover:bg-[var(--sec)]/20 transition duration-300 shadow-lg">
+          <div class="text-[var(--sec)] mb-4 text-4xl">☁️</div>
+          <h4 class="text-xl font-bold">Soluciones en la Nube</h4>
+          <p class="text-[var(--white-icon)]">
+            Implementación de servicios cloud simples y escalables para crecer contigo.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicios para Grandes Empresas -->
+    <div class="space-y-8">
+      <h3 class="text-2xl md:text-3xl font-semibold text-white">
+        🏢 Servicios para Grandes Empresas
+      </h3>
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="p-6 rounded-2xl bg-[#141414] hover:bg-[var(--sec)]/20 transition duration-300 shadow-lg">
+          <div class="text-[var(--sec)] mb-4 text-4xl">🔐</div>
+          <h4 class="text-xl font-bold">Ciberseguridad</h4>
+          <p class="text-[var(--white-icon)]">
+            Auditorías de seguridad, protección de datos y prevención de ataques cibernéticos.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#141414] hover:bg-[var(--sec)]/20 transition duration-300 shadow-lg">
+          <div class="text-[var(--sec)] mb-4 text-4xl">📊</div>
+          <h4 class="text-xl font-bold">Big Data & Analítica</h4>
+          <p class="text-[var(--white-icon)]">
+            Soluciones avanzadas para análisis de datos masivos y toma de decisiones estratégicas.
+          </p>
+        </div>
+        <div class="p-6 rounded-2xl bg-[#141414] hover:bg-[var(--sec)]/20 transition duration-300 shadow-lg">
+          <div class="text-[var(--sec)] mb-4 text-4xl">⚙️</div>
+          <h4 class="text-xl font-bold">Integraciones Empresariales</h4>
+          <p class="text-[var(--white-icon)]">
+            Conectamos tus sistemas internos con herramientas modernas para mayor productividad.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style is:global>
+  .shiny-sec {
+    background: linear-gradient(135deg, #a476ff 25%, #eee5ff 50%, #a476ff 75%);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 3s linear infinite;
+  }
+
+  @keyframes shine {
+    0% { background-position: 100% 50%; }
+    30%, 70% { background-position: 0% 50%; }
+  }
+</style>
