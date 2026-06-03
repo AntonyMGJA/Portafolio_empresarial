@@ -1,76 +1,50 @@
 # Portfolio
-![OscarHernandez-portfolio](https://github.com/user-attachments/assets/e284a42b-15c5-495c-99c7-ad5c1eb3bbe7)
-![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
+# Code-Flash: Innovación Digital
+
+Impulsamos la transformación digital de tu negocio con soluciones de software escalables, seguras y centradas en el usuario.
+
+
+## 🚀 Sobre Nosotros
+En Code-Flash, nos especializamos en transformar ideas en realidad digital. Ayudamos tanto a pequeñas empresas y startups como a grandes corporaciones a optimizar sus procesos, mejorar su presencia online y alcanzar la eficiencia a través de tecnología de vanguardia.
 
 ---
 
-[Demo](https://oscarhernandez.vercel.app/)
+## 🛠️ Tecnologías que Utilizamos
+Nuestro stack tecnológico principal incluye:
 
-[Astro Themes](https://astro.build/themes/details/dark-minimal/)
+*   **Frontend:** Astro, Vue, React, TailwindCSS, HTML5, CSS3, JavaScript.
+*   **Backend & Base de datos:** Nodejs, Supabase, MySQL.
+*   **Herramientas & Dev:** Git, Bash, TypeScript.
 
-[ReactBits Showcase](https://www.reactbits.dev/showcase) 
+---
 
-The component `<LetterGlitch \>` was taken from [ReactBits.dev](https://www.reactbits.dev/)
+## 📋 Servicios Destacados
 
-## **Stack**  
-### **Frontend**  
-![Astro](https://img.shields.io/badge/Astro-FF5D01?logo=astro&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
-### **Tools**  
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black)
-![Canva](https://img.shields.io/badge/Canva-c900c3?logo=canva&logoColor=white)
+### Para Pequeñas Empresas y Startups
+*   **💻 Desarrollo Web:** Sitios modernos y optimizados (SPAs, landing pages, portafolios, blogs).
+*   **📱 Aplicaciones Móviles:** Apps intuitivas y funcionales para Android e iOS (React Native).
+*   **☁️ Soluciones en la Nube:** Infraestructura simple y escalable.
 
-### **Show your favorite Spotify album (or your own)** ![Spotify](https://img.shields.io/badge/Spotify-06cc1a?logo=spotify&logoColor=white)
-1. Choose your Spotify album
-2. Access the share options
-3. Select 'copy embed code'
-```
-<iframe src="https://open.spotify.com/embed/album/ALBUM_ID" style="border-radius:12px border:0;" class="w-full h-40" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-```
-4. Insert the embed code on footer.astro
+### Para Grandes Empresas
+*   **🔐 Ciberseguridad:** Auditorías de seguridad y protección de datos.
+*   **📊 Big Data & Analítica:** Análisis de datos masivos para decisiones estratégicas.
+*   **⚙️ Integraciones Empresariales:** Conectividad total entre sistemas internos y herramientas modernas.
 
-That's it!
+### Diseño y Prototipos UI/UX
+*   Diseño de interfaces con Figma y Canva.
+*   Investigación y mejoras de UX.
+*   Prototipado rápido de sitios y aplicaciones.
 
-## **Project structure**
-```
-public/
-└── svg/
-src/
-├── Components/
-|    ├── contact.astro
-|    ├── footer.astro
-|    ├── home.astro
-|    ├── logoWall.astro
-|    ├── nav.astro
-|    └── projects.astro
-├── layouts/
-|    └── Layout.astro
-├── React/
-|    ├── LetterGlitch.tsx
-|    ├── LikeButton.tsx
-|    └── SkillsList.tsx
-└── pages/
-     └── index.astro
-```
+---
 
-## **Local configuration** 
-1. Clone the repo:  
-```
-git clone https://github.com/gothsec/portfolio
-```
-2. Install dependencies:
-```  
-npm install
-```
-3. Start the develpoment server:
-```  
-npm run dev
-```
+## 📞 Contáctanos
+¿Tienes una pregunta o un proyecto en mente? ¡Conversemos!
 
-> **Important Notice:**  
-> This project is licensed under the [MIT License](https://opensource.org/licenses/mit).  
-> According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright 
-> notice and the full license text. Copyright © 2025 Oscar Hernandez. All rights reserved.
+*   **Ubicación:** Puebla, México.
+*   **Sitio web:** [Inserta tu enlace aquí]
+
+---
+
+*Built with Astro and styled with TailwindCSS.*
+*Copyright © 2025 Codeflash Digitals. All rights reserved.*
